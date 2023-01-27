@@ -1,0 +1,22 @@
+body {
+    background-color: orange;
+}
+
+.logo-top-menu {
+    width: 250px;
+}
+
+.top-bar {
+    background-color: black !important;
+}
+
+.navbar-text {
+    color: rgb(202, 202, 202) !important;
+}
+
+.custom-icon {
+    background-color: rgb(236, 134, 1);
+    height: 32px;
+    display: flex;
+    align-items: center;
+}

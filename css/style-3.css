@@ -30,13 +30,20 @@ body {
 }
 
 .banner-top {
-    background-image: url(../img/top-banner-1.png);
     background-size: cover;
     background-position: center center;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-top-2 {
+    background-image: url(../img/top-banner-1.png);
+}
+
+.banner-top-3 {
+    background-image: url(../img/top-banner-2.png);
 }
 
 .top-banner-text {

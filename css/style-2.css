@@ -1,5 +1,5 @@
 body {
-    background-color: orange;
+    background-color: rgb(33, 33, 33);
 }
 
 .logo-top-menu {
@@ -7,7 +7,7 @@ body {
 }
 
 .top-bar {
-    background-color: black !important;
+    background-color: rgb(33, 33, 33) !important;
 }
 
 .navbar-text {
@@ -19,4 +19,52 @@ body {
     height: 32px;
     display: flex;
     align-items: center;
+}
+
+.video-box {
+    height: 200px;
+    padding: 0;
+}
+
+.video-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.box2 {
+    padding: 0;
+    height: fit-content;
+}
+
+.sign-up {
+    background-color: rgb(33, 33, 33) ;
+    height: 50px;
+    width: 100%;
+}
+.burguer-mes {
+    width: 100%;
+}
+
+.box3 {
+    background-color: rgb(33, 33, 33);
+    height: 60px;
+}
+
+.signs {
+    color: orange;
+    font-family:Impact;
+    font-size: large;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .video-box {
+        height: 400px;
+    }
+
+    .video-top {
+        height: 100%;
+    }
+
 }

@@ -7,7 +7,7 @@ body {
 }
 
 .box1 {
-    height: 70vh;
+    height: 50vh;
 }
 
 .logo-white-s {
@@ -15,7 +15,7 @@ body {
 }
 
 .logo-burguer {
-    width: 90px;
+    width: 100px;
     padding-bottom: 5px;
 }
 
@@ -28,6 +28,10 @@ body {
 
     body {
         background-image: url(../img/fondo-l.png);
+    }
+
+    .box1 {
+        height: 70vh;
     }
 
     .logo-burguer {

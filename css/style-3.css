@@ -20,3 +20,35 @@ body {
     display: flex;
     align-items: center;
 }
+
+.top-banner-text {
+    color: aliceblue;
+}
+
+.banner-top-container {
+    padding-top: 60px;
+}
+
+.banner-top {
+    background-image: url(../img/top-banner-1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-banner-text {
+    font-size:xxx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: black 3px 0 20px;
+    background-size: cover;
+}
+
+@media (min-width: 801px){
+    .grid-bottom-burguer {
+        padding-top: 20px;
+    }
+
+}

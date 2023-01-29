@@ -1,42 +1,27 @@
 body {
-    background-color: black;
-    background-image: url(../img/fondo-s.jpg);
+    background-color: rgb(31, 31, 31);
+    background-image: url(../img/fondo-s-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .box1 {
-    height: 50vh;
+    height: 80vh;
+}
+
+.sub-logo-text {
+    color: rgb(219, 219, 219);
 }
 
 .logo-white-s {
     width: 300px;
 }
 
-.logo-burguer {
-    width: 100px;
-    padding-bottom: 5px;
-}
-
-.logos-intro {
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 @media (min-width: 768px){
 
     body {
-        background-image: url(../img/fondo-l.png);
-    }
-
-    .box1 {
-        height: 70vh;
-    }
-
-    .logo-burguer {
-        width: 150px;
-        padding-bottom: 5px;
+        background-image: url(../img/fondo-l-3.png);
     }
 
     .logo-white-s {

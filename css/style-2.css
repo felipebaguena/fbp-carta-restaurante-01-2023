@@ -48,7 +48,6 @@ body {
 
 .box3 {
     background-color: rgb(33, 33, 33);
-    height: 60px;
 }
 
 .signs {
@@ -58,7 +57,13 @@ body {
     padding: 10px;
 }
 
+.text-footer {
+    color: orange;
+    width: 100%;
+}
+
 @media (min-width: 768px) {
+
 
     .video-box {
         height: 400px;
@@ -67,5 +72,9 @@ body {
     .video-top {
         height: 100%;
     }
+}
+
+@media (min-width: 360px) {
+
 
 }

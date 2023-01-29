@@ -104,6 +104,20 @@ body {
     text-align: center;
 }
 
+.map {
+    width: 100%;
+}
+
+.text-up-map {
+    text-align: center;
+    font-size: large;
+    color: orange !important;
+}
+
+.text-footer {
+    color: orange;
+    width: 100%;
+}
 
 
 /* /// MEDIAS /// */
@@ -111,6 +125,10 @@ body {
 @media (min-width: 801px){
     .grid-bottom-burguer {
         padding-top: 20px;
+    }
+
+    .text-up-map {
+        font-size: xx-large;
     }
 
 }

@@ -59,3 +59,24 @@ body {
     }
 
 }
+
+/* /// ZONA DE RESERVAS /// */
+
+
+.continuar-btn {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.tx-form {
+    font-family:Impact;
+    font-size: large;
+}

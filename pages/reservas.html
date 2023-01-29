@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"/>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style-3.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary top-bar fixed-top">
+        <div class="container-fluid top-bar">
+            <a class="navbar-brand" href="../pages/menu.html">
+            <img class="logo-top-menu" src="../img/logo-top-menu.png" alt="logo-top-left">
+            </a>
+            <button class="navbar-toggler custom-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active navbar-text" aria-current="page" href="../pages/food.html">Comida</a>
+                <a class="nav-link navbar-text" href="../pages/drinks.html">Bebidas</a>
+                <a class="nav-link navbar-text" href="#">Reservas</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col col-10 col-sm-8 col-lg-6 form-container">
+            <div class="tx-form text-center text-warning">
+                <h2>RESERVA</h2>
+                <p class="tx-form text-light">ARCADE BURGUER. Av. d'Ausiàs March, 6. València</p>
+            </div>
+            <div class="container text-warning">
+                <form>
+                  <div class="form-group">
+                    <div for="people">Número de personas:</div>
+                    <select id="people" class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </div>
+                  <div class="form-group pt-1">
+                    <div for="reservation">Fecha de la reserva:</div>
+                    <input type="date" class="form-control" id="reservation">
+                  </div>
+                  <div class="selector pt-1">
+                    <div for="hora">Hora de la reserva:</div>
+                  <select class="form-select" aria-label="Default select example">
+                    <option value="1">13:30</option>
+                    <option value="2">14:00</option>
+                    <option value="3">14:30</option>
+                    <option value="4">15:00</option>
+                    <option value="5">15:30</option>
+                    <option value="1">20:30</option>
+                    <option value="2">21:00</option>
+                    <option value="3">21:30</option>
+                    <option value="4">22:00</option>
+                    <option value="5">22:30</option>
+                    <option value="5">23:00</option>
+                  </select>
+                </div>
+                  <button type="submit" class="btn btn-primary continuar-btn btn-warning">CONTINUAR</button>
+                </form>
+              </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -53,13 +53,6 @@ body {
     background-size: cover;
 }
 
-@media (min-width: 801px){
-    .grid-bottom-burguer {
-        padding-top: 20px;
-    }
-
-}
-
 /* /// ZONA DE RESERVAS /// */
 
 
@@ -79,4 +72,25 @@ body {
 .tx-form {
     font-family:Impact;
     font-size: large;
+}
+
+.box-reservation {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(33, 33, 33, 0.828);
+}
+
+.back-reservation {
+    background-image: url(../img/reservas-fondo-m.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (min-width: 801px){
+    .grid-bottom-burguer {
+        padding-top: 20px;
+    }
+
 }

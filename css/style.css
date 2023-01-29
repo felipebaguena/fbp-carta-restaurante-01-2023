@@ -16,6 +16,12 @@ body {
 
 .logo-white-s {
     width: 300px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+}
+
+.logo-white-s:hover {
+    transform: scale(1.2);
 }
 
 @media (min-width: 768px){

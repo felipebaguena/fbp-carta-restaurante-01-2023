@@ -53,6 +53,17 @@ body {
     background-size: cover;
 }
 
+.banner-carta {
+    margin-top: 20px;
+    background-color: orange;
+    height: 180px;
+}
+
+.text-carta {
+    font-size: xxx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 /* /// ZONA DE RESERVAS /// */
 
 

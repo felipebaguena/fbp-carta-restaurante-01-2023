@@ -44,7 +44,7 @@ Proyecto 2 - Carta de Restaurante con Bootstrap
 
 ![image](https://user-images.githubusercontent.com/122631261/215575414-3c22e153-bacc-4049-a020-ef2fbf1f24f2.png)
 
-- Todos los elementos principales con los que está articulada la web están extraídos de Bootstrap: las cards, las tablas, el carousel o el navbar. Han sido modificados con las herramientas que la propia web de Bootstrap pone a nuestra disposición en su documentación, empleando principalmente los colores "Warning", tras haber decidido que los colores corporativos de este restaurante ficticio serían el gris oscuro y el naranja.
+- Todos los elementos principales con los que está articulada la web están extraídos de Bootstrap: las cards, las tablas, el carousel o el navbar. Todos ellos han sido integrados empleando HTML y CSS, desde Visual Studio Code. Han sido modificados con las herramientas que la propia web de Bootstrap pone a nuestra disposición en su documentación, empleando principalmente los colores "Warning", tras haber decidido que los colores corporativos de este restaurante ficticio serían el gris oscuro y el naranja.
 
 ### Errores conocidos
 

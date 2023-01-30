@@ -40,7 +40,7 @@ Proyecto 2 - Carta de Restaurante con Bootstrap
 
 ![image](https://user-images.githubusercontent.com/122631261/215574723-4bfc6be1-f53e-47fd-9af6-fad6415c5147.png)
 
-- Todos los logotipos que se pueden ver en la web están desarrollados con Photoshop, incluyendo el logo que encontramos en la página de bienvenida, el logo estilo pixelart del lateral del navbar y las letras de ARCADE BURGUER.
+- Todos los logotipos que se pueden ver en la web están desarrollados con Photoshop, incluyendo el logo que encontramos en la página de bienvenida, el logo estilo pixelart del lateral del navbar y las letras de ARCADE BURGUER. Algunos de los logotipos creados, no aparecen en la versión final de la web.
 
 ![image](https://user-images.githubusercontent.com/122631261/215575414-3c22e153-bacc-4049-a020-ef2fbf1f24f2.png)
 

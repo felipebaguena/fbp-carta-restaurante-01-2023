@@ -2,6 +2,8 @@ body {
     background-color: rgb(33, 33, 33);
 }
 
+/* ZONA DEL NAVBAR */
+
 .logo-top-menu {
     width: 250px;
 }
@@ -21,6 +23,8 @@ body {
     align-items: center;
 }
 
+/* CONTENEDOR DEL VIDEO DEL MENU */
+
 .video-box {
     padding-top: 55px;
     padding-left: 0;
@@ -32,6 +36,8 @@ body {
     object-fit: cover;
 }
 
+/* ZONA CENTRAL */
+
 .box2 {
     padding: 0;
     height: fit-content;
@@ -42,6 +48,7 @@ body {
     height: 50px;
     width: 100%;
 }
+
 .burguer-mes {
     width: 100%;
 }
@@ -72,9 +79,4 @@ body {
     .video-top {
         height: 100%;
     }
-}
-
-@media (min-width: 360px) {
-
-
 }
